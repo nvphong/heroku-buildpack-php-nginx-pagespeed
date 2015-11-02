@@ -30,14 +30,23 @@ NEWRELIC_FILE="newrelic-${NEWRELIC_VERSION}-heroku.tar.gz"
 # COMPOSER_URL="http://getcomposer.org/composer.phar"
 
 # Google Drive
-MANIFEST_URL="https://drive.google.com/file/d/0Bwy5imHB1P1jXzFGWF93UUhCbEU/view?usp=sharing"
-NGINX_URL="https://drive.google.com/file/d/0Bwy5imHB1P1jUjgtcE5hN25yeEk/view?usp=sharing"
+#MANIFEST_URL="https://drive.google.com/file/d/0Bwy5imHB1P1jXzFGWF93UUhCbEU/view?usp=sharing"
+#NGINX_URL="https://drive.google.com/file/d/0Bwy5imHB1P1jUjgtcE5hN25yeEk/view?usp=sharing"
 # NGINX_URL="https://docs.google.com/uc?authuser=0&id=0Bwy5imHB1P1jUjgtcE5hN25yeEk&export=download"
 # NGINX_URL="https://www.dropbox.com/s/tspit48ddtar7wq/nginx-1.4.6-heroku.tar.gz"
-MCRYPT_URL="https://drive.google.com/file/d/0Bwy5imHB1P1jTVZfLVBGY3NySUE/view?usp=sharing"
-MEMCACHED_URL="https://drive.google.com/file/d/0Bwy5imHB1P1jdklpZkZsMXo2M0E/view?usp=sharing"
-PHP_URL="https://drive.google.com/file/d/0Bwy5imHB1P1jc1YwcmdZbE1jODg/view?usp=sharing"
-NEWRELIC_URL="https://drive.google.com/file/d/0Bwy5imHB1P1jSmo4NTBSaUxjWW8/view?usp=sharing"
+#MCRYPT_URL="https://drive.google.com/file/d/0Bwy5imHB1P1jTVZfLVBGY3NySUE/view?usp=sharing"
+#MEMCACHED_URL="https://drive.google.com/file/d/0Bwy5imHB1P1jdklpZkZsMXo2M0E/view?usp=sharing"
+#PHP_URL="https://drive.google.com/file/d/0Bwy5imHB1P1jc1YwcmdZbE1jODg/view?usp=sharing"
+#NEWRELIC_URL="https://drive.google.com/file/d/0Bwy5imHB1P1jSmo4NTBSaUxjWW8/view?usp=sharing"
+#COMPOSER_URL="http://getcomposer.org/composer.phar"
+
+# S3
+MANIFEST_URL="https://atd-heroku-buildpacks.s3.amazonaws.com/heroku-buildpack-php-nginx-pagespeed/manifest.md5sum"
+NGINX_URL="https://atd-heroku-buildpacks.s3.amazonaws.com/heroku-buildpack-php-nginx-pagespeed/nginx-1.4.6-heroku.tar.gz"
+MCRYPT_URL="https://atd-heroku-buildpacks.s3.amazonaws.com/heroku-buildpack-php-nginx-pagespeed/libmcrypt-2.5.8.tar.gz"
+MEMCACHED_URL="https://atd-heroku-buildpacks.s3.amazonaws.com/heroku-buildpack-php-nginx-pagespeed/libmemcached-1.0.7.tar.gz"
+PHP_URL="https://atd-heroku-buildpacks.s3.amazonaws.com/heroku-buildpack-php-nginx-pagespeed/php-5.4.17-with-fpm-heroku.tar.gz"
+NEWRELIC_URL="https://atd-heroku-buildpacks.s3.amazonaws.com/heroku-buildpack-php-nginx-pagespeed/newrelic-2.9.5.78-heroku.tar.gz"
 COMPOSER_URL="http://getcomposer.org/composer.phar"
 
 #
